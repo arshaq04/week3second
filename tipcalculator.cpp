@@ -18,8 +18,8 @@ int main() {
     cin >> x;
     cout << "Enter the tip percentage: ";
     cin >> y;
-    int tips = (x / 100.0) * y;
-    int totalamount = (x + tips);
+    double tips = (x / 100.0) * y;
+    double totalamount = (x + tips);
     cout << "The tip is £" << tips << endl;
     cout << "The total amount to pay is £" << totalamount << endl;
     return 0;
